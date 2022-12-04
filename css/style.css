@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0463FA;
+    --primary: black;
     --light: #EFF5FF;
     --dark: #1B2C51;
 }
@@ -24,8 +24,6 @@
     bottom: 45px;
     z-index: 99;
 }
-
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -46,7 +44,11 @@
     font-weight: 500;
     transition: .5s;
 }
-
+.btn-primary{
+    background-color: black !important;
+    border-color: black;
+    
+}
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
